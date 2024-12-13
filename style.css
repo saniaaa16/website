@@ -1,0 +1,252 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    color: #333;
+}
+
+.banner {
+    background-color: #ff6347; /* Tomato color */
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    position: relative;
+    font-family: 'Arial', sans-serif;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #fff;
+    color: #ff6347;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff4500; /* Darker tomato color */
+    color: white;
+}
+
+
+/* Style the unordered list */
+nav ul {
+    list-style-type: none; /* Removes default list bullets */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Align the list items horizontally */
+    justify-content: center; /* Center the items horizontally */
+}
+
+/* Style the list items */
+nav ul li {
+    margin: 0 20px; /* Adds space between the list items */
+}
+
+/* Style the links inside the list items */
+nav ul li a {
+    color: #fff; /* White text color for the links */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Font size for the links */
+    padding: 10px 20px; /* Padding for clickable area */
+    border-radius: 5px; /* Slightly rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for links */
+nav ul li a:hover {
+    background-color: #FF6F61; /* Background color on hover */
+    color: #fff; /* White color on hover */
+}
+
+/* Hero Section */
+.hero {
+    background: url('your-hero-image.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    color: #F8C707
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #F88706
+}
+
+.cta-button {
+    background-color: #FF6F61;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px; /* Adds space before the button */
+}
+
+.cta-button:hover {
+    background-color: ##FFECA1;
+}
+
+/* Featured Street Food Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.feature-card {
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.feature-card h3 {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.feature-card p {
+    color: #666;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.rate-button {
+    padding: 10px 20px;
+    background-color: #FF6F61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.rate-button:hover {
+    background-color: #d95b53;
+}
+
+/* Hover effect for feature cards */
+.feature-card:hover {
+    transform: translateY(-10px);  /* Moves the box up slightly */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Rating Form Styling */
+.rating-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.rating-form input {
+    padding: 10px;
+    width: 100px;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.rating-form button {
+    padding: 10px 20px;
+    background-color: #FF6F61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.rating-form button:hover {
+    background-color: #d95b53;
+}
+
+/* How It Works Section */
+.how-it-works {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #f4f4f4;
+}
+
+.how-it-works h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.how-it-works p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.footer a {
+    color: #FF6F61;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Typeform Popup */
+.typeform-embed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+iframe {
+    border: none;
+}
+
+</style>
+
+
+
